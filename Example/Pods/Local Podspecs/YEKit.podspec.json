@@ -1,0 +1,22 @@
+{
+  "name": "YEKit",
+  "version": "0.1.0",
+  "summary": "A short description of YEKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/muyang00/YEKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "muyang00": "280798744@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/muyang00/YEKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "YEKit/Classes/**/*"
+}

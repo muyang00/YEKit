@@ -1,0 +1,6 @@
+framework module YEKit {
+  umbrella header "YEKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

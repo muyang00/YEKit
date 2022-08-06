@@ -7,6 +7,7 @@
 //
 
 #import "YEViewController.h"
+#import "YEKit/YESandboxSave.h"
 
 @interface YEViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    YESandboxSave *save = [[YESandboxSave alloc]init];
+    [save sandboxSave];
 }
 
 - (void)didReceiveMemoryWarning
